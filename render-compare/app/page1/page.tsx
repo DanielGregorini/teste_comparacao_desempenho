@@ -5,6 +5,7 @@ function page1() {
     <div>
       <article>
         <section>
+          <h1>Lorem ipsum dolor sit amet.</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
             exercitationem, quis, deserunt explicabo nostrum voluptate vel
@@ -60,8 +61,10 @@ function page1() {
         </section>
 
         <section>
-          <div className="image">Image</div>
-          <div className="image">Image</div>
+          <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+          <img src="/image1.jpg" alt="Imagem 1" width={400} />
+
+          <img src="/image1.jpg" alt="Imagem 1" width={400} />
         </section>
 
         <section>
@@ -79,10 +82,18 @@ function page1() {
             quis enim officia dicta!
           </p>
 
-          <div className="image-left">Image</div>
+          <img src="/image1.jpg" alt="Imagem 1" width={400} />
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum commodi corrupti mollitia facere in velit repellat quibusdam, explicabo quas maxime asperiores consectetur voluptatum animi? A velit ex non porro corrupti odio perspiciatis. At non nemo facilis fugit eaque consectetur optio in saepe, unde molestiae aut eius sint aspernatur, molestias sequi placeat? Tempora perspiciatis ullam natus eligendi ea voluptatibus reprehenderit eveniet vitae facilis ipsum, provident ratione autem porro quis sed sit cupiditate aperiam facere inventore cum corporis.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+            commodi corrupti mollitia facere in velit repellat quibusdam,
+            explicabo quas maxime asperiores consectetur voluptatum animi? A
+            velit ex non porro corrupti odio perspiciatis. At non nemo facilis
+            fugit eaque consectetur optio in saepe, unde molestiae aut eius sint
+            aspernatur, molestias sequi placeat? Tempora perspiciatis ullam
+            natus eligendi ea voluptatibus reprehenderit eveniet vitae facilis
+            ipsum, provident ratione autem porro quis sed sit cupiditate aperiam
+            facere inventore cum corporis.
           </p>
         </section>
       </article>
