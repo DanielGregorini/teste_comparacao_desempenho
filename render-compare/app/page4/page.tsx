@@ -1,13 +1,27 @@
 import React from "react";
+import Image from "next/image";
+/*
+PÁGINA 4
+
+1. Imagem
+2. Imagem
+3. Imagem
+4. Título lorem4
+5. Parágrafo lorem45
+6. Imagem
+7. Parágrafo lorem80
+8. Título lorem9
+9. Imagem
+*/
 
 function page4() {
   return (
     <div>
       <article>
         <section>
-          <img src="/image1.jpg" alt="Imagem 1" width={400} />
-          <img src="/image1.jpg" alt="Imagem 1" width={400} />
-          <img src="/image1.jpg" alt="Imagem 1" width={400} />
+          <Image src="/image1.jpg" alt="Imagem 1" width={400} />
+          <Image src="/image1.jpg" alt="Imagem 1" width={400} />
+          <Image src="/image1.jpg" alt="Imagem 1" width={400} />
           <h1>Lorem ipsum dolor sit.</h1>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut iusto
@@ -19,7 +33,7 @@ function page4() {
         </section>
 
         <section>
-          <img src="/image1.jpg" alt="Imagem 1" width={400} />
+          <Image src="/image1.jpg" alt="Imagem 1" width={400} />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
             voluptas quaerat fugiat pariatur soluta consequatur. Maxime aperiam
@@ -36,7 +50,7 @@ function page4() {
           <h1>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore!
           </h1>
-          <img src="/image1.jpg" alt="Imagem 1" width={400} />
+          <Image src="/image1.jpg" alt="Imagem 1" width={400} />
         </section>
       </article>
     </div>

@@ -1,4 +1,19 @@
 import React from "react";
+import Image from "next/image";
+/*
+PÁGINA 1
+
+1. Título lorem5
+2. Parágrafo lorem123
+3. Parágrafo lorem133
+4. Parágrafo lorem102
+5. Título lorem6
+6. Imagem
+7. Imagem
+8. Parágrafo lorem89
+9. Imagem 
+10. Parágrafo lorem76
+*/
 
 function page1() {
   return (
@@ -62,9 +77,9 @@ function page1() {
 
         <section>
           <h1>Lorem ipsum dolor sit amet consectetur.</h1>
-          <img src="/image1.jpg" alt="Imagem 1" width={400} />
+          <Image src="/image1.jpg" alt="Imagem 1" width={400} />
 
-          <img src="/image1.jpg" alt="Imagem 1" width={400} />
+          <Image src="/image1.jpg" alt="Imagem 1" width={400} />
         </section>
 
         <section>
@@ -82,7 +97,7 @@ function page1() {
             quis enim officia dicta!
           </p>
 
-          <img src="/image1.jpg" alt="Imagem 1" width={400} />
+          <Image src="/image1.jpg" alt="Imagem 1" width={400} />
 
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum

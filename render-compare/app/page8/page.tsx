@@ -1,16 +1,30 @@
 import React from "react";
+import Image from "next/image";
+/*
+PÁGINA 8
+
+1. Imagem
+2. Título lorem9
+3. Imagem
+4. Parágrafo lorem137
+5. Imagem
+6. Parágrafo lorem70
+7. Título lorem12
+8. Parágrafo lorem98
+9. Imagem
+*/
 
 function page8() {
   return (
     <div>
       <article>
         <section>
-          <img src="/image1.jpg" alt="Imagem 1" width={400} />
+          <Image src="/image1.jpg" alt="Imagem 1" width={400} />
           <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum.</h1>
         </section>
 
         <section>
-          <img src="/image1.jpg" alt="Imagem 1" width={400} />
+          <Image src="/image1.jpg" alt="Imagem 1" width={400} />
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus
             reiciendis nam quidem possimus ex quis quia, culpa voluptate? Nam
@@ -29,7 +43,7 @@ function page8() {
             sunt. Dolore placeat totam, vitae, aliquid, aliquam deserunt odio
             ducimus fugiat reprehenderit in molestiae.
           </p>
-          <img src="/image1.jpg" alt="Imagem 1" width={400} />
+          <Image src="/image1.jpg" alt="Imagem 1" width={400} />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
             necessitatibus, nihil maxime quos ea illo ad? Consequuntur
@@ -60,7 +74,7 @@ function page8() {
             commodi laudantium quaerat necessitatibus ratione nulla expedita
             similique dignissimos!
           </p>
-          <img src="/image1.jpg" alt="Imagem 1" width={400} />
+          <Image src="/image1.jpg" alt="Imagem 1" width={400} />
         </section>
       </article>
     </div>

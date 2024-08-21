@@ -1,4 +1,19 @@
 import React from "react";
+import Image from "next/image";
+/*
+PÁGINA 7
+
+1. Parágrafo lorem135
+2. Parágrafo lorem67
+3. Título lorem16
+4. Título lorem12
+5. Imagem
+6. Título lorem4
+7. Imagem
+8. Parágrafo lorem71
+9. Imagem
+10. Parágrafo lorem119
+*/
 
 function page7() {
   return (
@@ -45,12 +60,12 @@ function page7() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
             consequuntur numquam laboriosam!
           </h1>
-          <img src="/image1.jpg" alt="Imagem 1" width={400} />
+          <Image src="/image1.jpg" alt="Imagem 1" width={400} />
         </section>
 
         <section>
           <h1>Lorem ipsum dolor sit.</h1>
-          <img src="/image1.jpg" alt="Imagem 1" width={400} />
+          <Image src="/image1.jpg" alt="Imagem 1" width={400} />
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
             asperiores enim qui possimus! Reiciendis maiores assumenda aperiam
@@ -62,7 +77,7 @@ function page7() {
             recusandae aliquid perferendis voluptatum blanditiis ducimus, minus
             porro ipsum? Dolor, non.
           </p>
-          <img src="/image1.jpg" alt="Imagem 1" width={400} />
+          <Image src="/image1.jpg" alt="Imagem 1" width={400} />
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis itaque
           repellendus dicta, reprehenderit necessitatibus enim ratione excepturi
           deserunt minus eius pariatur quidem eos commodi. Recusandae nihil

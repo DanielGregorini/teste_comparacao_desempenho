@@ -1,11 +1,28 @@
 import React from "react";
+import Image from "next/image";
+/*
+PÁGINA 6
+
+1. Imagem (Topo)
+2. Título lorem10
+3. Parágrafo lorem130
+4. Imagem
+5. Imagem
+6. Parágrafo lorem68
+7. Imagem
+8. Imagem
+9. Título lorem7
+10. Parágrafo lorem160
+11. Título lorem15
+12. Imagem
+*/
 
 function page6() {
   return (
     <div>
       <article>
         <section>
-          <img src="/image1.jpg" alt="Imagem 1" width={400} />
+          <Image src="/image1.jpg" alt="Imagem 1" width={400} />
           <h1>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
             eaque.
@@ -31,8 +48,8 @@ function page6() {
         </section>
 
         <section>
-          <img src="/image1.jpg" alt="Imagem 1" width={400} />
-          <img src="/image1.jpg" alt="Imagem 1" width={400} />
+          <Image src="/image1.jpg" alt="Imagem 1" width={400} />
+          <Image src="/image1.jpg" alt="Imagem 1" width={400} />
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex fuga
             iusto totam possimus eveniet, adipisci neque eligendi quisquam!
@@ -46,8 +63,8 @@ function page6() {
         </section>
 
         <section>
-          <img src="/image1.jpg" alt="Imagem 1" width={400} />
-          <img src="/image1.jpg" alt="Imagem 1" width={400} />
+          <Image src="/image1.jpg" alt="Imagem 1" width={400} />
+          <Image src="/image1.jpg" alt="Imagem 1" width={400} />
           <h1>Lorem ipsum, dolor sit amet consectetur adipisicing.</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
@@ -74,7 +91,7 @@ function page6() {
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde,
             cupiditate eligendi excepturi omnis possimus officiis!
           </h1>
-          <img src="/image1.jpg" alt="Imagem 1" width={400} />
+          <Image src="/image1.jpg" alt="Imagem 1" width={400} />
         </section>
       </article>
     </div>

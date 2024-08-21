@@ -1,11 +1,30 @@
 import React from "react";
+import Image from "next/image";
+/*
+PÁGINA 2
+
+1. Imagem
+2. Parágrafo lorem120
+3. Título 1 lorem10
+4. Parágrafo lorem103
+5. Parágrafo lorem58
+6. Imagem
+7. Parágrafo lorem150
+8. Parágrafo lorem30
+9. Título 1 lorem11
+10. Imagem (Centro)
+11. Parágrafo lorem132
+12. Título 1 lorem2
+13. Imagem (Centro)
+14. Parágrafo lorem170
+*/
 
 function page2() {
   return (
     <div>
       <article>
         <section>
-          <img src="/image1.jpg" alt="Imagem 1" width={400} />
+          <Image src="/image1.jpg" alt="Imagem 1" width={400} />
         </section>
         <section>
           <p>
@@ -57,7 +76,7 @@ function page2() {
           </p>
         </section>
         <section>
-          <img src="/image1.jpg" alt="Imagem 1" width={400} />
+          <Image src="/image1.jpg" alt="Imagem 1" width={400} />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
             quidem ea! Beatae placeat maxime eum laudantium doloremque unde
@@ -90,7 +109,7 @@ function page2() {
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius,
             reiciendis ipsa!
           </h1>
-          <img src="/image1.jpg" alt="Imagem 1" width={400} />
+          <Image src="/image1.jpg" alt="Imagem 1" width={400} />
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi
             saepe dolorum temporibus voluptatum exercitationem repellat,
@@ -112,7 +131,7 @@ function page2() {
         </section>
         <section>
           <h1>Lorem, ipsum.</h1>
-          <img src="/image1.jpg" alt="Imagem 1" width={400} />
+          <Image src="/image1.jpg" alt="Imagem 1" width={400} />
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor
             cupiditate amet placeat alias voluptate inventore vero labore

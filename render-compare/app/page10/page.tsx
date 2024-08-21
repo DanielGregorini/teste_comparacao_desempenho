@@ -1,4 +1,20 @@
 import React from "react";
+/*
+PÁGINA 10
+
+1. Título lorem9
+2. Parágrafo lorem142
+3. Parágrafo lorem106
+4. Título lorem5
+5. Parágrafo lorem85
+6. Título lorem16
+7. Parágrafo lorem123
+8. Título lorem4
+9. Título lorem6
+10. Parágrafo lorem56
+11. Parágrafo lorem130
+12. Parágrafo lorem74
+*/
 
 function page10() {
   return (

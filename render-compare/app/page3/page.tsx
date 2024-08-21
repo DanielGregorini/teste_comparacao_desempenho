@@ -1,4 +1,18 @@
 import React from "react";
+import Image from "next/image";
+/*
+PÁGINA 3
+
+1. Parágrafo lorem56
+2. Imagem
+3. Imagem
+4. Título lorem5
+5. Parágrafo lorem96
+6. Imagem
+7. Parágrafo lorem150
+8. Parágrafo lorem123
+9. Parágrafo lorem72
+*/
 
 function page3() {
   return (
@@ -14,8 +28,8 @@ function page3() {
             ex necessitatibus quas reprehenderit deleniti aut quae pariatur
             saepe molestias, explicabo consequuntur voluptate, quidem magni.
           </p>
-          <img src="/image1.jpg" alt="Imagem 1" width={400} />
-          <img src="/image1.jpg" alt="Imagem 1" width={400} />
+          <Image src="/image1.jpg" alt="Imagem 1" width={400} />
+          <Image src="/image1.jpg" alt="Imagem 1" width={400} />
         </section>
 
         <section>
@@ -33,7 +47,7 @@ function page3() {
             Tempora commodi, assumenda nesciunt, recusandae vel ad incidunt
             quidem nobis cumque non, vitae possimus cum quisquam ratione.
           </p>
-          <img src="/image1.jpg" alt="Imagem 1" width={400} />
+          <Image src="/image1.jpg" alt="Imagem 1" width={400} />
         </section>
 
         <section>
