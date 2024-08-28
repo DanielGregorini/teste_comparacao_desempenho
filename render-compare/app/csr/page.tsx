@@ -1,12 +1,6 @@
 "use client"
 import { useEffect, useState } from 'react';
-
-interface Cliente {
-  id: number;
-  nome: string;
-  email: string;
-  telefone: string;
-}
+import Cliente from "@/classes/client";
 
 export default function CSRPage() {
   const [clientes, setClientes] = useState<Cliente[]>([]);
