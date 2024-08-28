@@ -1,6 +1,6 @@
 # Teste de Comparação de Desempenho
 
-Este repositório contém um projeto dedicado a testar e comparar diferentes abordagens de renderização de páginas web: **Client-Side Rendering (CSR)** e **Server-Side Rendering (SSR)**. O objetivo é avaliar como cada abordagem impacta a performance e a experiência do usuário em diversas condições.
+Este repositório contém um projeto dedicado a testar e comparar diferentes abordagens de renderização de páginas web: **Client-Side Rendering (CSR)** e **Server-Side Rendering (SSR)**. O objetivo é avaliar como cada abordagem impacta a performance em diversas condições.
 
 ### Autores: Daniel Mahl Gregorini e Gabriel Trevisan Damke
 
